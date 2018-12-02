@@ -3,10 +3,6 @@
     outline: none;
 }
 
-* {
-    flex-grow: 0;
-}
-
 body {
     background-color: #ffffff;
     color: #464646;
