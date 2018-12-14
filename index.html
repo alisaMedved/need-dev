@@ -45,15 +45,6 @@
         <h2>Наши товары на слайдерах</h2>
         <section class="slider">
             <!--
-            <div class="slider-button-wrap">
-                <ul class="slider-button-list">
-                    <li><button href="#slider__item-01" class="slider-button-list__radio_hover active"></button></li>
-                    <li><button href="#slider__item-02" class="slider-button-list__radio_hover active"></button></li>
-                    <li><button href="#slider__item-03" class="slider-button-list__radio_hover active"></button></li>
-                </ul>
-            </div>
-           -->
-            <!--
             <div class="slider-item-1" id="slider-item_number_01">
                 <img class="slider-img_1" src="img/monopod-slider.png" alt="изображение палки для селфи">
                 <div class="slider-text">
@@ -80,6 +71,7 @@
                 </div>
                 </div>
                 -->
+            <!--
             <div class="slider-item-2 id="slider-item_number_02">
             <img class="slider-img_2" src="img/bracelet-slider.png" alt="браслет">
                 <div class="slider-text">
@@ -96,7 +88,7 @@
                 </ul>
                 </div>
             </div>
-            <!--
+            -->
             <div class="slider-item-3" id="slider-item_number_03">
             <img class="slider-img_3" src="img/drone-slider.png" alt="дрон">
             <div class="slider-text">
@@ -118,10 +110,15 @@
                 </ul>
                 </div>
             </div>
-            -->
+            <div class="slider-button-wrap">
+                <ul class="slider-button-list">
+                    <li><button class="slider-button sb1"></button></li>
+                    <li><button class="slider-button sb2"></button></li>
+                    <li><button class="slider-button sb3"></button></li>
+                </ul>
+            </div>
         </section>
         <section class="popular-wrap">
-            <!--
             <ul class="popular-list">
                 <li class="popular-item">
                     <a class="popular-link" href="#">
@@ -129,7 +126,7 @@
                 </li>
                 <li class="popular-item">
                     <a class="popular-link" href="">
-                        <div class="wrap-img"><img class="popular-img" src="img/popular-2.svg" alt=""></div>Моноподы для селфи</a>
+                        <div class="wrap-img wr-i2"><img class="popular-img" src="img/popular-2.svg" alt=""></div>Моноподы для селфи</a>
                 </li>
                 <li class="popular-item">
                     <a class="popular-link" href="">
@@ -148,42 +145,44 @@
                         <div class="wrap-img"><img class="popular-img" src="img/popular-6.svg" alt=""></div>Квадрокоптеры</a>
                 </li>
             </ul>
-            -->
         </section>
         <div class="wrap-section-services">
-            <!--
+            <div class="wraper-services">
         <section class="services">
-            <!--
             <div class="services-button-wrap">
                 <ul class="services-button-list">
-                    <li><a href="#services-delivery" class="button button_col_black">Доставка</a></li>
-                    <li><a href="#services-warranty" class="button button_col_black">Гарантия</a></li>
-                    <li><a href="#services-credit" class="button button_col_black">Кредит</a></li>
+                    <li class="services-button-item"><a href="#services-delivery" class="button button_col_black">Доставка</a></li>
+                    <li class="services-button-item"><a href="#services-warranty" class="button button_col_black">Гарантия</a></li>
+                    <li class="services-button-item"><a href="#services-credit" class="button button_col_black">Кредит</a></li>
                 </ul>
             </div>
-            <div class="services-delivery" id="services-delivery">
-                <h3>Доставка</h3>
-                <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
-                <img class="services-delivery__img" src="img/delivery.svg" alt="Доставка">
-            </div>
-            <!--
+            <!--<div class="services-delivery" id="services-delivery">-->
+                <!--<div class="delivery-text">-->
+                <!--<h3>Доставка</h3>-->
+                <!--<p>Мы с удовольствием доставим ваш товар прямо к вашему<br>подъезду совершенно бесплатно! Ведь мы неплохо<br>заработаем, поднимая его на ваш этаж.</p>-->
+                <!--</div>-->
+                <!--<img class="services-delivery__img" src="img/delivery.svg" alt="Доставка">-->
+            <!--</div>-->
             <div class="services-warranty" id="services-warranty">
+                <div class="warranty-text">
                 <h3>Гарантия</h3>
-                <p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый.
+                <p>Если из-за возгорания купленного у нас товара у вас сгорит<br>дом — не переживайте, мы выдадим вам новый.<br>
                 Товар, не дом, конечно же.</p>
+                </div>
                 <img class="services-warranty__img" src="img/warranty.svg" alt="Гарантия">
             </div>
-            <div class="services-credit" id="services-credit">
-                <h3>Кредит</h3>
-                <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные
-                условия кредита. Выгодные для нашего банка, разумеется.</p>
-                <img class="services-credit__img" src="img/credit.svg" alt="Кредит">
-            </div>
+            <!--<div class="services-credit" id="services-credit">-->
+            <!--<div class="credit-text">-->
+                <!--<h3>Кредит</h3>-->
+                <!--<p>Залезть в долговую яму стало проще! Кредитные<br>консультанты подберут для вас наиболее выгодные<br>-->
+                <!--условия кредита. Выгодные для нашего банка, разумеется.</p>-->
+                <!--</div>-->
+                <!--<img class="services-credit__img" src="img/credit.svg" alt="Кредит">-->
+            <!--</div>-->
         </section>
-        -->
+            </div>
         </div>
         <section class="brands">
-            <!--
             <ul class="brands-list">
                 <li class="brands-item">
                     <a class="brands-link" href="www.dji.com">
@@ -206,80 +205,77 @@
                     </a>
                 </li>
             </ul>
-            -->
         </section>
         <div class="wrap-info-contact">
-            <!--
         <section class="info">
-
             <h3>О нас</h3>
-            <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
-            <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
-            <ul class="info-trans">
+            <div class="info-text">
+            <p>Огромный выбор гаджетов не оставит равнодушным гика,<br>который есть в каждом из нас.</p>
+            <p>Мы можем доставить ваш товар в самые отдаленные точки<br>России! DEVICE работает со многими транспортными компаниями:</p>
+        </div>
+            <div class="wrap-info-trans">
+                <ul class="info-trans">
                 <li class="info-trans__item">Деловые Линии</li>
                 <li class="info-trans__item">Автотрейдинг</li>
                 <li class="info-trans__item">ЖелДорЭкспедиция</li>
             </ul>
+            </div>
             <a href="#" class="button">Подробнее о нас</a>
-
         </section>
         <section class="contact">
-
             <h3>Контакты</h3>
-            <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-            <a href="#">
+            <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете<br>проверить работоспособность покупки. Всякое бывает.</p>
+            <a class="map-link" href="#">
                 <img class="contact__map" src="img/map.jpg" alt="">
             </a>
             <a href="#" class="button"> Напишите нам</a>
-
         </section>
-            -->
         </div>
     </main>
     <footer class="page-footer">
-        <!--
-        <section class="footer-left">
-        <a class="logo" href="index.html"><img src="img/logo-yell.svg" alt="логотип DEVICE"></a>
-        <p>г. Москва, ул. Строителей, 15</p>
-        </section>
-        <section class="footer-center">
-        <ul class="site-links-list">
-            <li class="site-links-item"><a href="#">Доставка</a></li>
-            <li class="site-links-item"><a href="">Гарантия</a></li>
-            <li class="site-links-item"><a href="">Контакты</a></li>
-        </ul>
-        <div>
-            <ul class="social-list">
-                <li class="social-item">
-                    <a href="#">
-                        <img src="img/fb.svg" alt="facebook">
-                    </a>
-                </li>
-                <li class="social-item">
-                    <a href="">
-                        <img src="img/instagram.svg" alt="instagram">
-                    </a>
-                </li>
-                <li class="social-item">
-                    <a href="">
-                        <img src="img/twitter.svg" alt="twitter">
-                    </a>
-                </li>
-            </ul>
-        </div>
-        </section>
-        <section class="footer-right">
+        <div class="footer">
+        <section class="footer-first">
+        <a class="logo" href="index.html"><img src="img/logo-yell.png" alt="логотип DEVICE"></a>
             <ul class="users-links-list">
                 <li class="users-links-item"><a href="#">Войти</a></li>
                 <li class="users-links-item"><a href="">Сравнить</a></li>
                 <li class="users-links-item"><a href="">Корзина</a></li>
             </ul>
+        </section>
+        <section class="footer-second">
+            <p>г. Москва, ул. Строителей, 15</p>
+        <ul class="site-links-list">
+            <li class="site-links-item"><a href="#">Доставка</a></li>
+            <li class="site-links-item"><a href="">Гарантия</a></li>
+            <li class="site-links-item"><a href="">Контакты</a></li>
+        </ul>
             <p>Тел.: +7 (495) 495-95-95</p>
+        </section>
+        <section class="footer-third">
+            <div>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a class="social-link" href="#">
+                            <img src="img/fb.svg" alt="facebook">
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="social-link" href="">
+                            <img src="img/instagram.svg" alt="instagram">
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="social-link" href="">
+                            <img src="img/twitter.svg" alt="twitter">
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <a class="html-academy-logo" href="https://htmlacademy.ru/intensive/htmlcss">
                 <img src="img/htmlacademy-icon.svg" alt="www.htmlacademy.ru">
             </a>
         </section>
-        -->
+        </div>
     </footer>
     <!--
 <div class="modal-map">
